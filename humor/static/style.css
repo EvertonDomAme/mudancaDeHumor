@@ -1,0 +1,31 @@
+.fundos{
+    display: flex;
+    justify-content: center ;
+    align-items: center;  
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#botao{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: orangered;
+    border-bottom: 15px solid rgb(56, 1, 73);
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.mudanca{
+    background-color: rgba(185, 56, 46, 0.378);
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 40px;
+}
+#imagem{
+    width: 400px;
+    height: 400px;
+}/* id de imagem definido para definir as medidas da imagem a ser apresentada */
